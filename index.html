@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">doc_ghi_du_lieu</h1><br>
+<!---------------------------READ DATA--------------------------------------------------->
+    <h2>doc du lieu</h2>
+    <h3>Nhiet do:<span id="nhietdo">00</span></h3>
+    <h3>do am:<span id="doam">00</span></h3>
+    <hr>
+<!---------------------------WRITE DATA--------------------------------------------------->
+    <h2>ghi du lieu</h2>
+    <h3>data 1:</h3><input id="d1" type="number"><br><br>
+    <h3>data 2:</h3><input id="d2" type="number">
+    <button type="submit" id="sendbtn">gui</button>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js"></script>
+    <script type="module" src="demo.js">
+// Import the functions you need fom the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/8.2.10/firebase-analytics.js";
+    import { getDatabase, set, get, ref, push, child } from "https://www.gstatic.com/firebasejs/8.2.10/firebase-database.js";   
+    </script>
+</body>
+</html>
